@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="main-cointainer" >
+        <div class="nav">
+            <div class="logo">
+                <a href="">Web Profile</a>
+            </div>
+
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="home">
+        <div class="home-left">
+            <h3 class="pre-title">Hallo all I am</h3>
+            <h1 class="home-name">Ferdinan Nduru</h1>
+            <p>
+                Saya pemula dalam pengembangan web dari Kampus UTDI Yogyakarta, Indonesia. 
+                Saya sangat antusias untuk belajar pengembangan back-end di IL MSIB. Bagi saya, 
+                coding lebih dari sekadar menyelesaikan tugas, ini tentang menciptakan sesuatu yang indah dan fungsional. 
+                Saya bersemangat untuk terus belajar dan berkembang sebagai developer web!
+            </p>
+            <a href="">
+                <button class="btn">My Cv</button>
+            </a>
+        </div>
+
+        <div class="home-right">
+            <img src="diri.jpg"  alt="Foto Saya" />
+        </div>
+    </section>
+    </div>
+    </header>
+
+    
+    <section id="about">
+        <div class="main-container">
+            <h1 class="section-title-about">about</h1>
+            <p style="text-align:center">
+            Bahasa Programmer Yang Saya Pelajari 
+           </p>
+           <br />
+           
+    
+           <div class="grid-3">
+
+            <div class="about">
+            <div class="about-icon">
+            <img src="php.png" alt=" PHP " width="24" height="24" viewbox ="0 0 24 24">
+           </div>
+           <h4>PHP</h4>
+           <p>bahasa pemrograman server-side yang sering digunakan oleh developer untuk membangun website dinamis, 
+            aplikasi berbasis web, dan antarmuka pengguna grafis atau GUI
+           </p>
+        </div>
+
+        <div class="about">
+            <div class="about-icon">
+            <img src="java.png" alt="Java" width="24" height="24" viewbox ="0 0 24 24">
+           </div>
+           <h4>Java</h4>
+           <p>bahasa pemrograman yang biasa digunakan untuk mengembangkan bagian back-end dari software, 
+            aplikasi Android, dan juga website.
+           </p>
+        </div>
+
+        <div class="about">
+            <div class="about-icon">
+            <img src="python.png" alt="Python" width="24" height="24" viewbox ="0 0 24 24">
+           </div>
+           <h4>Python</h4>
+           <p>bahasa pemrograman komputer yang biasa dipakai untuk membangun situs, 
+            software/aplikasi, mengotomatiskan tugas, dan melakukan analisis data. 
+           </p>
+        </div>
+    </div>
+    </section>
+
+    <section id="skill">
+        <div class="main-cointainer">
+            <h1 class="section-title-skill">Experience & Skills </h1>
+
+            <div class="skill-grid">
+                <div clsss="skill-left">
+
+                <div class="experience">
+                    <div class="line">
+                        <div></div>
+                        </div>
+
+                        <div class="experience-info">
+                            <h4 class="experience-title">Data Entry</h4>
+                            <p>Menginput DataDari Server Kantor Ke social Media dan Gmaps</p>
+                            <h4 class="experience-date">Agustus 2018 - Oktober 2018</h4>
+                        </div>
+                    </div>
+
+                    <div class="experience">
+                        <div class="line">
+                            <div></div>
+                            </div>
+    
+                            <div class="experience-info">
+                                <h4 class="experience-title">Project Web Statis</h4>
+                                <p>Mengembangkan aplikasi web sederhana untuk Penjualan Mobil</p>
+                                <h4 class="experience-date">Februari 2022 - Mei 2022</h4>
+                            </div>
+                   </div>
+
+                   <div class="experience">
+                    <div class="line">
+                        <div></div>
+                        </div>
+
+                        <div class="experience-info">
+                            <h4 class="experience-title">Project Micro IL MSIB</h4>
+                            <p>Membuat Web Static tentang Pengobatan Alternatif</p>
+                            <h4 class="experience-date">Maret 2024- April2024</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-right">
+                    <p>Keterampilan Teknis Bahasa Programmer :
+                    </p>
+
+                        <div class="skills-list">
+                            <ul>
+                                <li>Menengah : Python , Java , Mysql , Php</li>
+                                <li>MongoDb</li>
+                                <li>Cassandra</li>
+                                
+                            </ul>
+
+                            <ul>
+                                <li>UI/UX Design Figma</li>
+                                <li>Django</li>
+                                <li>Redis</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact main-cointainer">
+            <div style="text-align: center;">
+            <h1>Contact</h1>
+            <p>Untuk pertanyaan atau kerjasama, silakan hubungi saya melalui email
+            </p>
+            <br/>
+        </div>
+        
+
+        <form class="contact-form">
+            <div>
+                <input type="text" name="name" placeholder="Name">
+            </div>
+
+            <div>
+                <input type="email" name="email" placeholder="email">
+            </div>
+
+            <div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message">
+
+                </textarea>
+            </div>
+
+            <div>
+                <button class="btn-submit">Send Message</button>
+            </div>
+        </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/mr_ben98?igsh=MThocnQ1ZjAwcjlzYQ%3D%3D&utm_source=qr">
+                <img src="instagram.png" alt="" width="24" height="24" viewbox ="0 0 24 24">
+            </a>
+
+            <a href="https://github.com/ferdinan1998">
+                <img src="github.png" alt="" width="24" height="24" viewbox ="0 0 24 24">
+            </a>
+
+            <a href="">
+                <img src="twitt.png" alt="" width="24" height="24" viewbox ="0 0 24 24">
+            </a>
+
+        </div>
+        <p>&#169; 2024 All Right Reserved</p>
+    </footer>
+</body>
+</html>
